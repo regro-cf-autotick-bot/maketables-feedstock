@@ -1,13 +1,13 @@
 {% set name = "maketables" %}
-{% set version = "0.1.8" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: aa4b3776fd9bac6d6f881866824e6a13b9e647f8c87f234d9a24463242ad19f1
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 0db51b7efa1e6ed8b1aedcd0537d8692ea8699ed08557e1871a5413a374c7058
 
 build:
   noarch: python
